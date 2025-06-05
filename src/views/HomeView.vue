@@ -2,7 +2,7 @@
   <div class="fixed top-0 bottom-0 left-0 right-0">
     <div class="center">
       <img :src="srcImg" alt="" class="m-auto" ref="img" width="250px" height="250px">
-      <h2 class="text-[30px] m-5" ref="h2">能和我一起打瓦嘛？</h2>
+      <h2 class="text-[19px] m-4" ref="h2">能和我一起打瓦嘛？</h2>
       <div class="flex justify-around">
         <button class="bg-violet-400 hover:bg-violet-300" @click="resolve" v-if="!state" ref="button"
           :style="size">来吧走起</button>
@@ -62,8 +62,8 @@ function reject() {
 
 button {
   border-radius: 10px;
-  padding: 10px 22px;
-  font-size: 18px;
+  padding: 10px 20px;
+  font-size: 16px;
   color: #fff;
 }
 </style>
